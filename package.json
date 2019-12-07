@@ -1,0 +1,38 @@
+{
+  "name": "@xmobe/onepay",
+  "version": "0.0.1",
+  "description": "Typescript Node Module for OnePay Payment Method in Vietnam",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xmobe-com/onepay"
+  },
+  "homepage": "https://xmobe.com",
+  "bugs": {
+    "url": "https://github.com/xmobe-com/onepay/issues"
+  },
+  "readme": "https://github.com/xmobe-com/onepay/blob/master/README.md",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "tslint": "^5.18.0",
+    "typedoc": "^0.15.3",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xMobe",
+    "OnePay",
+    "onepay",
+    "payment gateway",
+    "payment method",
+    "typescript"
+  ],
+  "author": "quanganh@xmobe.com",
+  "license": "MIT"
+}
